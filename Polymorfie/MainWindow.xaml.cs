@@ -27,13 +27,17 @@ namespace Polymorfie
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            Rectangle rect1 = new Rectangle();
-            rect1.Width = 100;
-            rect1.Height = 100;
-            rect1.Stroke = new SolidColorBrush(Colors.Black);
-            rect1.Margin = new Thickness(10, 10, 0, 0);
+            Square square1 = new Square(180, 180);
+            Circle circle1 = new Circle(40, 40);
+            List<Shape> group = new List<Shape>();
 
-            canvas.Children.Add(rect1);
+            group.Add(circle1);
+            group.Add(square1);
+
+            foreach (Shape shape in group)
+            {
+                shape.DisplayOn(canvas);
+            }
         }
     }
 }
