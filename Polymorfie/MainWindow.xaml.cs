@@ -24,5 +24,16 @@ namespace Polymorfie
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Rectangle rect1 = new Rectangle();
+            rect1.Width = 100;
+            rect1.Height = 100;
+            rect1.Stroke = new SolidColorBrush(Colors.Black);
+            rect1.Margin = new Thickness(10, 10, 0, 0);
+
+            canvas.Children.Add(rect1);
+        }
     }
 }
