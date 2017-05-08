@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="10,21,0,0" VerticalAlignment="Top" Width="75"/>
         <Canvas HorizontalAlignment="Left" Height="299" Margin="104,10,0,0" VerticalAlignment="Top" Width="403"/>
-        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
